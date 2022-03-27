@@ -1,4 +1,8 @@
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faCircleInfo,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import "./ExperienceTab.css";
@@ -17,11 +21,18 @@ const Navbar = ({ pathName, setPathname }) => {
   ];
 
   return (
-    <nav className="md:px-16 sm:px-4 w-full fixed top-0 h-[72px] md:m-0 mt-7 px-5">
+    <nav className="md:px-16 sm:px-4 w-full fixed top-0 h-[72px] md:m-0 mt-7 px-5 z-40">
       <div className="flex flex-wrap justify-between items-center mx-auto">
         <a href="/" className="flex items-center">
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-            Flowbite
+            <img className="p-3" width={70} src="logo.png" alt="" />{" "}
+            <FontAwesomeIcon
+              className="text-yellow-400 mr-2"
+              icon={faCircleInfo}
+            />
+            <span className="text-yellow-400 z-20">
+              Site is under development
+            </span>
           </span>
         </a>
         <button
