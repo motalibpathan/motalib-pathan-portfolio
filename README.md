@@ -1,5 +1,7 @@
 # My Portfolio
 
+## Live site link: [https://motalib-pathan-portfolio.vercel.app/](https://motalib-pathan-portfolio.vercel.app/)
+
 # This project was built using these technologies.
 
 <h2><img align="left" alt="Tailwind CSS" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" style="padding-right:10px;" /> Tailwind CSS </h2>
