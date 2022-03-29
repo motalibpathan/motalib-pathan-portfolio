@@ -11,15 +11,15 @@ const ProjectCard = ({ category, title, bg }) => {
   return (
     <div
       className={
-        `thumbnail text-white min-h-[500px] text-center relative hover:scale-110 z-0 transition duration-500 rounded-lg before:rounded-lg overflow-hidden before:opacity-0 before:hover:opacity-90 ` +
+        `thumbnail text-white min-h-[500px] text-center relative hover:scale-110 transition duration-500 rounded-lg before:rounded-lg overflow-hidden before:opacity-0 before:hover:opacity-90 z-[5] ` +
         before
       }
     >
       <div
-        className="thumbnail-img rounded-lg hover:bg-none"
+        className="thumbnail-img rounded-lg hover:bg-none "
         style={cardStyle}
       ></div>
-      <div className="absolute bottom-7 right-6 left-6 z-20">
+      <div className="absolute bottom-7 right-6 left-6 z-10">
         <p>{category}</p>
         <h1 className="text-2xl font-bold my-5">{title}</h1>
         <button

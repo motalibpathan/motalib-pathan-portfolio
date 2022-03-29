@@ -28,7 +28,7 @@ const ExperienceTab = () => {
               item.skills[0].title === skills[0].title
                 ? "before:bg-rose-500 before:w-full text-rose-500"
                 : "before:bg-gray-500 before:w-1/3"
-            }  pb-3 list-border cursor-pointer relative md:text-xl text-base`}
+            }  pb-3 list-border cursor-pointer relative md:text-xl text-base z-10`}
           >
             {item.title}
           </li>

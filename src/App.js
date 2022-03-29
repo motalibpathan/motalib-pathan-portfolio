@@ -1,19 +1,19 @@
-import { useState } from "react";
 import Navbar from "./components/Navbar";
 import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Project from "./pages/Project";
 import Services from "./pages/Services";
 
 function App() {
-  const [pathName, setPathname] = useState("#");
   return (
-    <div className="relative">
-      <Navbar pathName={pathName} setPathname={setPathname} />
-      <Home pathName={pathName} setPathname={setPathname} />
-      <AboutMe pathName={pathName} setPathname={setPathname} />
+    <div>
+      <Navbar />
+      <Home />
+      <AboutMe />
       <Services />
       <Project />
+      <Contact />
     </div>
   );
 }
