@@ -1,9 +1,9 @@
 import React from "react";
 import "./ProjectCard.css";
 
-const ProjectCard = ({ category, title }) => {
+const ProjectCard = ({ category, title, bg }) => {
   const cardStyle = {
-    backgroundImage: `url(http://trydo.rainbowit.net/assets/images/portfolio/portfolio-1.jpg)`,
+    backgroundImage: `url(${bg})`,
     backgroundSize: "cover",
     height: "100%",
     width: "100%",

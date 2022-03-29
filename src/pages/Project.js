@@ -18,14 +18,44 @@ const Services = () => {
         <ProjectCard
           category={"Development"}
           title="Getting ticket to the big show"
+          bg={
+            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-1.jpg"
+          }
         />
         <ProjectCard
           category={"Development"}
           title="Getting ticket to the big show"
+          bg={
+            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-2.jpg"
+          }
         />
         <ProjectCard
           category={"Development"}
           title="Getting ticket to the big show"
+          bg={
+            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg"
+          }
+        />
+        <ProjectCard
+          category={"Development"}
+          title="Getting ticket to the big show"
+          bg={
+            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-4.jpg"
+          }
+        />
+        <ProjectCard
+          category={"Development"}
+          title="Getting ticket to the big show"
+          bg={
+            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg"
+          }
+        />
+        <ProjectCard
+          category={"Development"}
+          title="Getting ticket to the big show"
+          bg={
+            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-4.jpg"
+          }
         />
       </div>
     </div>
