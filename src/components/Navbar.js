@@ -44,7 +44,9 @@ const Navbar = () => {
     <nav
       className={`md:px-16 sm:px-4 w-full fixed top-0 h-[90px] px-5 md:z-50 ${
         isNavOpen ? "z-50" : "z-10"
-      } ${background ? "bg-black md:-mt-5 shadow-md " : "md:m-0"} duration-500`}
+      } ${
+        background ? "bg-[#191919] md:-mt-5 shadow-lg " : "md:m-0"
+      } duration-500`}
     >
       <div className="flex flex-wrap justify-between items-center mx-auto ">
         <a href="/" className="flex items-center ">
