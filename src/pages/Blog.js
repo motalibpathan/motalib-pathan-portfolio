@@ -10,7 +10,10 @@ const Services = () => {
   const desc2 = " but the majority have suffered alteration.";
 
   return (
-    <div id="blog" className="md:min-h-screen bg-black py-32 px-7 md:px-0">
+    <div
+      id="blog"
+      className="md:min-h-screen dark:bg-black bg-gray-100 py-32 px-7 md:px-0"
+    >
       <SectionHeader title={title} desc1={desc1} desc2={desc2} />
       <div className="md:w-4/6 mx-auto grid md:grid-cols-3 grid-cols-1 gap-14 my-14">
         <BlogCard

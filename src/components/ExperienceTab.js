@@ -19,7 +19,7 @@ const ExperienceTab = () => {
 
   return (
     <div>
-      <ul className="mt-10 mb-10 flex gap-6 font-bold text-white w-full flex-wrap">
+      <ul className="mt-10 mb-10 flex gap-6 font-bold dark:text-white text-gray-900 w-full flex-wrap">
         {tabItems.map((item, index) => (
           <li
             onClick={() => setSkills(item.skills)}

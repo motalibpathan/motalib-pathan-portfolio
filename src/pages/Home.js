@@ -13,8 +13,8 @@ const Home = () => {
           <h1 className="text-3xl md:text-7xl font-bold mt-3">
             Hi, I'm John Doe
           </h1>
-          <h2 className="text-3xl md:text-6xl font-bold md:my-4 my-0 text-rose-500">
-            MERN Stack Developer
+          <h2 className="text-3xl md:text-6xl font-bold md:my-4 my-0 text-rose-600">
+            JS Developer
           </h2>
           <h4 className="text-xl md:text-5xl font-bold">based in USA.</h4>
         </div>

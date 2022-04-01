@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <div
       id="portfolio"
-      className="md:min-h-screen bg-[#191919] py-32 px-7 md:px-0"
+      className="md:min-h-screen dark:bg-[#191919] bg-gray-50 py-32 px-7 md:px-0"
     >
       <SectionHeader title={title} desc1={desc1} desc2={desc2} />
       <div className="md:w-4/6 mx-auto grid md:grid-cols-3 grid-cols-1 gap-14 my-14">
