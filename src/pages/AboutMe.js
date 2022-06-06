@@ -9,11 +9,7 @@ const AboutMe = () => {
     >
       <div className="md:container mx-auto grid lg:grid-cols-12 grid-cols-1">
         <div className="col-span-5 p-4">
-          <img
-            className="w-full"
-            src="http://trydo.rainbowit.net/assets/images/about/about-8.jpg"
-            alt=""
-          />
+          <img className="w-full" src="about-8.png" alt="" />
         </div>
         <div className="col-span-7 flex items-center p-4">
           <div>
@@ -21,10 +17,11 @@ const AboutMe = () => {
               About Me
             </h1>
             <p className="my-5">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which dont look even slightly
-              believable. If you are going to use a passage of Lorem Ipsum,
+              Self-motivated team player and creative web developer with
+              proficiency in HTML, CSS, JavaScript, React, Node.js and
+              express.js seeking for a position of a Full stack web developer. I
+              can enhance my knowledge of design principles and grow with the
+              organization.
             </p>
             <ExperienceTab />
           </div>
@@ -35,3 +32,5 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
+//http://trydo.rainbowit.net/assets/images/about/about-8.jpg

@@ -40,10 +40,7 @@ const Contact = () => {
           <Button btnText={"Submit"} />
         </div>
         <div className="w-full md:w-1/2">
-          <img
-            src="	http://trydo.rainbowit.net/assets/images/about/about-9.jpg"
-            alt=""
-          />
+          <img src="about-8.png" alt="" />
         </div>
       </div>
     </div>

@@ -1,29 +1,29 @@
 const mainSkills = [
   {
-    title: "User experience design - UI/UX",
-    desc: "Delight the user and make it work.",
+    title: "Expertise",
+    desc: "HTML, CSS, JavaScript, ES6, Rest API, React, Bootstrap-5, Tailwind CSS",
   },
   {
-    title: "Web and user interface design - Development",
-    desc: "Websites, web experiences, ...",
+    title: "Comfortable",
+    desc: "Node.js, Mongodb, Express.js, Firebase, Daisyui",
   },
   {
-    title: "Interaction design - Animation",
-    desc: "User experience design - UI/UX",
+    title: "Tools",
+    desc: "Git, Github, Heroku, Netlify, VS code, Figma, Photoshop, Illustrator",
   },
 ];
-const awards = [
+const certificate = [
   {
-    title: "Awwwards.com - Winner",
-    desc: "2019 - 2020",
+    title: "Complete Web Development - Programming Hero",
+    desc: "2022 ",
   },
   {
-    title: "CSS Design Awards - Winner",
+    title: "Graphics Design - ICT Division",
     desc: "2017 - 2018",
   },
   {
-    title: "Design nominees - site of the day",
-    desc: "2013- 2014",
+    title: "CCNA Routing and Switching",
+    desc: "IBCS Primax Software Bangladesh - 2018",
   },
 ];
 const experience = [
@@ -56,4 +56,4 @@ const education = [
   },
 ];
 
-export { mainSkills, awards, experience, education };
+export { mainSkills, certificate, experience, education };

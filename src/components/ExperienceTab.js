@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-  awards,
+  certificate,
   education,
   experience,
   mainSkills,
@@ -10,9 +10,9 @@ import "./ExperienceTab.css";
 const ExperienceTab = () => {
   const tabItems = [
     { title: "Main skills", skills: mainSkills },
-    { title: "Awards", skills: awards },
-    { title: "Experience", skills: experience },
-    { title: "Education & Certification", skills: education },
+    // { title: "Experience", skills: experience },
+    { title: "Certification", skills: certificate },
+    { title: "Education", skills: education },
   ];
 
   const [skills, setSkills] = useState(mainSkills);
@@ -45,10 +45,3 @@ const ExperienceTab = () => {
 };
 
 export default ExperienceTab;
-
-//
-//
-//
-//
-//
-// I like to move it move it.
