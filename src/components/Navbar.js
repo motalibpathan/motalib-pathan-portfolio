@@ -1,8 +1,4 @@
-import {
-  faBars,
-  faCircleInfo,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import ScrollSpy from "react-scrollspy-navigation";
@@ -50,31 +46,30 @@ const Navbar = () => {
         background ? "bg-[#191919] md:-mt-5 shadow-lg " : "md:m-0"
       } duration-500`}
     >
-      <div className="flex flex-wrap justify-between items-center mx-auto ">
-        <a href="/" className="flex items-center ">
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-            <img className="p-3 pt-6" width={70} src="logo.png" alt="" />{" "}
-            <FontAwesomeIcon
-              className="text-yellow-400 mr-2"
-              icon={faCircleInfo}
-            />
-            <span className="text-yellow-400 ">Site is under development</span>
-          </span>
-        </a>
-        <button
-          onClick={() => setIsNavOpen(!isNavOpen)}
-          data-collapse-toggle="mobile-menu"
-          type="button"
-          className="text-white text-2xl md:hidden -mt-5 z-50"
-          aria-controls="mobile-menu-2"
-          aria-expanded="false"
-        >
-          {!isNavOpen ? (
-            <FontAwesomeIcon icon={faBars} />
-          ) : (
-            <FontAwesomeIcon icon={faXmark} />
-          )}
-        </button>
+      <div className="flex flex-wrap justify-between md:items-center mx-auto">
+        <div>
+          <a href="/" className="flex items-center ">
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+              <img className="" width={50} src="logo.png" alt="" />{" "}
+            </span>
+          </a>
+        </div>
+        <div>
+          <button
+            onClick={() => setIsNavOpen(!isNavOpen)}
+            data-collapse-toggle="mobile-menu"
+            type="button"
+            className="text-white text-2xl md:hidden -mt-5 z-50"
+            aria-controls="mobile-menu-2"
+            aria-expanded="false"
+          >
+            {!isNavOpen ? (
+              <FontAwesomeIcon icon={faBars} />
+            ) : (
+              <FontAwesomeIcon icon={faXmark} />
+            )}
+          </button>
+        </div>
         <div
           className={`${
             isNavOpen

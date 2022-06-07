@@ -5,21 +5,24 @@ const ProjectCard = ({ category, title, bg }) => {
   const cardStyle = {
     backgroundImage: `url(${bg})`,
     backgroundSize: "cover",
-    height: "100%",
     width: "100%",
+    backgroundPosition: "50% 0%",
   };
   return (
     <div
       className={
-        `thumbnail text-white min-h-[500px] text-center relative hover:scale-110 transition duration-500 rounded-lg before:rounded-lg overflow-hidden before:opacity-0 before:hover:opacity-90 z-[5] ` +
+        `thumbnail text-white min-h-[400px] text-center relative hover:scale-110 transition duration-500 rounded-lg before:rounded-lg overflow-hidden before:opacity-0 before:hover:opacity-90 z-[5] border dark:border-rose-500 border-gray-700 group` +
         before
       }
     >
-      <div
-        className="thumbnail-img rounded-lg hover:bg-none "
+      {/* <div
+        className="thumbnail-img rounded-lg hover:bg-none h-[200px] "
         style={cardStyle}
-      ></div>
-      <div className="absolute bottom-7 right-6 left-6 z-10">
+      ></div> */}
+      <div className="h-[200px] overflow-hidden ">
+        <img className="group-hover:scale-110 duration-500" src={bg} alt="" />
+      </div>
+      <div className="absolute bottom-7 right-6 left-6 z-10 dark:text-white text-black hover:text-white">
         <p>{category}</p>
         <h1 className="text-2xl font-bold my-7">{title}</h1>
         <button

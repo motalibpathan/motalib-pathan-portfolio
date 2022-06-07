@@ -6,8 +6,8 @@ import SectionHeader from "../components/SectionHeader";
 const Services = () => {
   const title = "My Latest Project";
   const desc1 =
-    "There are many variations of passages of Lorem Ipsum available,";
-  const desc2 = " but the majority have suffered alteration.";
+    "These projects development with HTML, CSS, JavaScript, Rest API";
+  const desc2 = " React JS, Node JS, Mongodb, Firebase, Git, Heroku";
 
   return (
     <div
@@ -17,46 +17,34 @@ const Services = () => {
       <SectionHeader title={title} desc1={desc1} desc2={desc2} />
       <div className="md:w-4/6 mx-auto grid md:grid-cols-3 grid-cols-1 gap-14 my-14">
         <ProjectCard
-          category={"Development"}
-          title="Getting ticket to the big show"
-          bg={
-            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-1.jpg"
-          }
+          category={"Mern Stack Project"}
+          title="Spadex Tools"
+          bg={"/project/spadexToolThumbnail.PNG"}
+        />
+        <ProjectCard
+          category={"Mern Stack Project"}
+          title="Inventory Management"
+          bg={"/project/carMax.PNG"}
+        />
+        <ProjectCard
+          category={"Mern Stack Project"}
+          title="Red Onion Website"
+          bg={"/project/RedOnion.PNG"}
         />
         <ProjectCard
           category={"Development"}
-          title="Getting ticket to the big show"
-          bg={
-            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-2.jpg"
-          }
+          title="Service Provider Website"
+          bg={"/project/ericPhotography.PNG"}
         />
         <ProjectCard
           category={"Development"}
-          title="Getting ticket to the big show"
-          bg={
-            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg"
-          }
+          title="Dashboard Project "
+          bg={"/project/salesTracker.PNG"}
         />
         <ProjectCard
           category={"Development"}
-          title="Getting ticket to the big show"
-          bg={
-            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-4.jpg"
-          }
-        />
-        <ProjectCard
-          category={"Development"}
-          title="Getting ticket to the big show"
-          bg={
-            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-3.jpg"
-          }
-        />
-        <ProjectCard
-          category={"Development"}
-          title="Getting ticket to the big show"
-          bg={
-            "http://trydo.rainbowit.net/assets/images/portfolio/portfolio-4.jpg"
-          }
+          title="Food Choose Project"
+          bg={"/project/khabarLagbe.PNG"}
         />
       </div>
       <div className="text-center ">

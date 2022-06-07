@@ -10,9 +10,9 @@ const Contact = () => {
             Hire Me.
           </h1>
           <p className="text-gray-500 my-5">
-            I am available for freelance work. Connect with me via phone:{" "}
-            <span className="text-white">01684 352102</span> or email:{" "}
-            <span className="text-white">admin@example.com</span>
+            I am available for remote job. Connect with me via phone:{" "}
+            <span className="text-white">+88 01684 352102</span> or email:{" "}
+            <span className="text-white">motalib.pathan01@gmail.com</span>
           </p>
           <div className="flex flex-col">
             <input
