@@ -1,3 +1,4 @@
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
@@ -91,6 +92,26 @@ const Navbar = () => {
                 </a>
               ))}
             </ScrollSpy>
+            <span>
+              <a
+                href="https://github.com/motalibpathan"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                {" "}
+                <FontAwesomeIcon className="text-2xl" icon={faGithub} />{" "}
+              </a>
+            </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/motalib-pathan"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                {" "}
+                <FontAwesomeIcon className="text-2xl" icon={faLinkedin} />{" "}
+              </a>
+            </span>
             <span
               onClick={() => setTheme(colorTheme)}
               className=" cursor-pointer"
