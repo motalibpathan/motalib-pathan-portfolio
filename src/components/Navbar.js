@@ -33,29 +33,29 @@ const Navbar = () => {
   const navItems = [
     { href: "#home", name: "Home" },
     { href: "#about", name: "About" },
-    { href: "#services", name: "Service" },
+    // { href: "#services", name: "Service" },
     { href: "#portfolio", name: "Portfolio" },
-    { href: "#blog", name: "Blog" },
+    // { href: "#blog", name: "Blog" },
     { href: "#contact", name: "Contact" },
   ];
 
   return (
     <nav
-      className={`md:px-16 sm:px-4 w-full fixed top-0 h-[90px] px-5 md:z-50 ${
+      className={`md:px-16 sm:px-4 w-full fixed top-0 h-[65px] md:h-[90px] px-5 md:z-50 ${
         isNavOpen ? "z-50" : "z-10"
       } ${
-        background ? "bg-[#191919] md:-mt-5 shadow-lg " : "md:m-0"
+        background ? "bg-[#191919] md:-mt-5 shadow-2xl " : "md:m-0"
       } duration-500`}
     >
-      <div className="flex flex-wrap justify-between md:items-center mx-auto">
-        <div>
+      <div className="flex flex-wrap justify-between items-center mx-auto pt-2">
+        <div className="w-1/2">
           <a href="/" className="flex items-center ">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               <img className="" width={50} src="logo.png" alt="" />{" "}
             </span>
           </a>
         </div>
-        <div>
+        <div className="z-50">
           <button
             onClick={() => setIsNavOpen(!isNavOpen)}
             data-collapse-toggle="mobile-menu"
@@ -92,7 +92,7 @@ const Navbar = () => {
                 </a>
               ))}
             </ScrollSpy>
-            <span>
+            <span className="mr-2">
               <a
                 href="https://github.com/motalibpathan"
                 target={"_blank"}
@@ -114,7 +114,7 @@ const Navbar = () => {
             </span>
             <span
               onClick={() => setTheme(colorTheme)}
-              className=" cursor-pointer"
+              className="md:inline block md:mt-0 mt-5 cursor-pointer "
             >
               {colorTheme === "dark" ? dark : light}
             </span>

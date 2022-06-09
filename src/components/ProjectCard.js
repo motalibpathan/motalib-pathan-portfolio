@@ -26,8 +26,8 @@ const ProjectCard = ({ category, title, bg }) => {
         <p>{category}</p>
         <h1 className="text-2xl font-bold my-7">{title}</h1>
         <button
-          className="border-2 px-5 py-2 rounded-md hover:bg-rose-600 hover:border-rose-600
-        hover:-translate-y-2 transition duration-500 border-gray-400 "
+          className="border px-5 py-2 rounded-md bg-rose-600 hover:border-rose-600
+        hover:-translate-y-2 transition text-white duration-500 border-rose-500 "
         >
           VIEW DETAILS
         </button>

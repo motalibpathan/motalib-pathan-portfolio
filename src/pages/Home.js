@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <header
       id="home"
-      className="h-96 md:h-screen bg-black text-white flex items-center"
+      className="h-[600px] md:h-screen bg-black text-white flex items-center"
     >
       <div className="md:container mx-auto">
         <div className="md:ml-10 ml-5">
@@ -24,7 +24,7 @@ const Home = () => {
                 2000,
                 " React Developer",
                 2000,
-                " MERN Stack Developer",
+                " MERN Developer",
                 2000,
                 " Graphics Designer",
                 2000,
@@ -37,11 +37,13 @@ const Home = () => {
           {/* <h4 className="text-xl md:text-5xl font-bold">based in USA.</h4> */}
           <div className="mt-10">
             <a
-              href="#contact"
+              href="https://drive.google.com/file/d/1swgpUH9eQijyP7hRAOA4TkxHHwx12jCN/view?usp=sharing"
+              target={"_blank"}
+              rel="noreferrer"
               className="hover:text-white border-2 border-rose-600 bg-rose-600 py-3 px-9 cursor-pointer rounded-md mt-10
           bg-transparent text-rose-600 duration-500"
             >
-              Hire Me
+              Download Resume
             </a>
           </div>
         </div>

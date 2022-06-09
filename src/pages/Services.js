@@ -5,8 +5,7 @@ import ServiceCard from "../components/ServiceCard";
 
 const Services = () => {
   const title = "My Awesome Service";
-  const desc1 =
-    "There are many variations of passages of Lorem Ipsum available,";
+  const desc1 = "My services which I can provide ";
   const desc2 = " but the majority have suffered alteration.";
 
   return (
