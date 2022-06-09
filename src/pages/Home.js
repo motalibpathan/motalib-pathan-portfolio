@@ -35,13 +35,12 @@ const Home = () => {
             />
           </h2>
           {/* <h4 className="text-xl md:text-5xl font-bold">based in USA.</h4> */}
-          <div className="mt-10">
+          <div className="mt-10 ">
             <a
               href="https://drive.google.com/file/d/1swgpUH9eQijyP7hRAOA4TkxHHwx12jCN/view?usp=sharing"
               target={"_blank"}
               rel="noreferrer"
-              className="hover:text-white border-2 border-rose-600 bg-rose-600 py-3 px-9 cursor-pointer rounded-md mt-10
-          bg-transparent text-rose-600 duration-500"
+              className="text-white border-2 border-rose-600 py-3 px-8 bg-rose-600 cursor-pointer rounded-md mt-10  duration-500 hover:bg-transparent z-10"
             >
               Download Resume
             </a>

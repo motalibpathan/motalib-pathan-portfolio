@@ -75,7 +75,7 @@ const Navbar = () => {
           className={`${
             isNavOpen
               ? "translate-x-20 md:translate-x-0 "
-              : "md:translate-x-0 translate-x-[500px] "
+              : "md:translate-x-0 translate-x-[500px] md:static absolute"
           } w-full md:block md:w-auto md:bg-transparent opacity-90 bg-black -ml-5 nav-items transition-transform md:h-full h-screen md:m-0 -m-24 pt-10 md:pt-0 `}
           id="mobile-menu"
         >
