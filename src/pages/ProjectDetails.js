@@ -80,15 +80,17 @@ const ProjectDetails = () => {
             <FontAwesomeIcon className="mr-2" icon={faGithub} />
             Client Source
           </a>
-          <a
-            className="px-5 py-3 bg-rose-500 rounded-md border border-rose-500 hover:bg-transparent duration-500"
-            target="_blank"
-            rel="noreferrer"
-            href={projectDetails.links.serverSource}
-          >
-            <FontAwesomeIcon className="mr-2" icon={faServer} />
-            Server Source
-          </a>
+          {projectDetails.links.serverSource && (
+            <a
+              className="px-5 py-3 bg-rose-500 rounded-md border border-rose-500 hover:bg-transparent duration-500"
+              target="_blank"
+              rel="noreferrer"
+              href={projectDetails.links.serverSource}
+            >
+              <FontAwesomeIcon className="mr-2" icon={faServer} />
+              Server Source
+            </a>
+          )}
         </div>
       </div>
     </div>

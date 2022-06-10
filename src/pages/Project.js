@@ -47,8 +47,8 @@ const Services = () => {
         <ProjectCard
           id={6}
           category={"Development"}
-          title="Food Choose Project"
-          bg={"/project/project6/khabarLagbe.PNG"}
+          title="Product Review Website"
+          bg={"/project/project6/laptopReview.PNG"}
         />
       </div>
       {/* <div className="text-center ">
