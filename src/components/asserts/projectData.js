@@ -1,0 +1,213 @@
+const projectData = [
+  {
+    id: 1,
+    projectName: "Spadex Tools",
+    images: [
+      "/project/project1/spadexToolThumbnail.PNG",
+      "/project/project1/spadex_3.PNG",
+      "/project/project1/spadex_2.PNG",
+      "/project/project1/spadex_4.PNG",
+    ],
+    features: [
+      "Login authentication with firebase also use google sign in.",
+      "Fully responsive, Home page has navbar, banner, All tools, Business Summary, Review overview, contact and footer section.",
+      "User and Admin different Dashboard",
+      "User can update profile info, place order and add a review also can payment with credit card",
+      "Admin can make admin, cancel and shipped order, Add product and manage products",
+    ],
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "Daisyui",
+      "Firebase",
+      "React Router",
+      "React Query",
+      "React Toastify",
+      "React hook form",
+      "React Firebase Hooks",
+      "Font Awesome icon",
+      "Stripe payment",
+      "Mongodb",
+      "Express JS",
+      "Node JS",
+      "JSON Web Token",
+    ],
+    links: {
+      liveSite: "https://manufacture-website-e2667.web.app/",
+      clientSource:
+        "https://github.com/motalibpathan/manufacturer-website-client",
+      serverSource:
+        "https://github.com/motalibpathan/manufacturer-website-server",
+    },
+  },
+  {
+    id: 2,
+    projectName: "Car Max",
+    images: [
+      "/project/project2/carMax.PNG",
+      "/project/project2/carMax_2.PNG",
+      "/project/project2/carMax_3.PNG",
+      "/project/project2/carMax_4.PNG",
+    ],
+    features: [
+      "Login authentication with firebase also use google sign in.",
+      "Fully responsive, Home page has navbar, banner, All tools, Business Summary, Review overview, contact and footer section.",
+      "User and Admin different Dashboard",
+      "User can update profile info, place order and add a review also can payment with credit card",
+      "Admin can make admin, cancel and shipped order, Add product and manage products",
+    ],
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "Firebase",
+      "React Router",
+      "React Toastify",
+      "React Firebase Hooks",
+      "Font Awesome icon",
+      "Mongodb",
+      "Express JS",
+      "Node JS",
+      "JSON Web Token",
+    ],
+    links: {
+      liveSite: "https://warehouse-management-85499.web.app/",
+      clientSource:
+        "https://github.com/motalibpathan/warehouse-management-client",
+      serverSource:
+        "https://github.com/motalibpathan/warehouse-management-server",
+    },
+  },
+  {
+    id: 3,
+    projectName: "Red Onion",
+    images: [
+      "/project/project3/RedOnion.PNG",
+      "/project/project3/redOnion_2.PNG",
+      "/project/project3/redOnion_3.PNG",
+      "/project/project3/redOnion_4.PNG",
+    ],
+    features: [
+      "Login authentication with firebase also use google sign in.",
+      "Fully responsive, Home page has navbar, banner, All tools, Business Summary, Review overview, contact and footer section.",
+      "User and Admin different Dashboard",
+      "User can update profile info, place order and add a review also can payment with credit card",
+      "Admin can make admin, cancel and shipped order, Add product and manage products",
+    ],
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "Daisyui",
+      "Firebase",
+      "React Router",
+      "React Query",
+      "React Toastify",
+      "React hook form",
+      "React Firebase Hooks",
+      "Font Awesome icon",
+      "Stripe payment",
+    ],
+    links: {
+      liveSite: "https://red-onion-eight.vercel.app/",
+      clientSource: "https://github.com/motalibpathan/red-onion",
+      serverSource: "https://github.com/motalibpathan/red-onion-server",
+    },
+  },
+  {
+    id: 4,
+    projectName: "Spadex Tools",
+    images: ["/project/project1/spadexToolThumbnail.PNG"],
+    features: [
+      "Login authentication with firebase also use google sign in.",
+      "Fully responsive, Home page has navbar, banner, All tools, Business Summary, Review overview, contact and footer section.",
+      "User and Admin different Dashboard",
+      "User can update profile info, place order and add a review also can payment with credit card",
+      "Admin can make admin, cancel and shipped order, Add product and manage products",
+    ],
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "Daisyui",
+      "Firebase",
+      "React Router",
+      "React Query",
+      "React Toastify",
+      "React hook form",
+      "React Firebase Hooks",
+      "Font Awesome icon",
+      "Stripe payment",
+    ],
+    links: {
+      liveSite: "https://manufacture-website-e2667.web.app/",
+      clientSource:
+        "https://github.com/motalibpathan/manufacturer-website-client",
+      serverSource:
+        "https://github.com/motalibpathan/manufacturer-website-server",
+    },
+  },
+  {
+    id: 5,
+    projectName: "Spadex Tools",
+    images: ["/project/project1/spadexToolThumbnail.PNG"],
+    features: [
+      "Login authentication with firebase also use google sign in.",
+      "Fully responsive, Home page has navbar, banner, All tools, Business Summary, Review overview, contact and footer section.",
+      "User and Admin different Dashboard",
+      "User can update profile info, place order and add a review also can payment with credit card",
+      "Admin can make admin, cancel and shipped order, Add product and manage products",
+    ],
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "Daisyui",
+      "Firebase",
+      "React Router",
+      "React Query",
+      "React Toastify",
+      "React hook form",
+      "React Firebase Hooks",
+      "Font Awesome icon",
+      "Stripe payment",
+    ],
+    links: {
+      liveSite: "https://manufacture-website-e2667.web.app/",
+      clientSource:
+        "https://github.com/motalibpathan/manufacturer-website-client",
+      serverSource:
+        "https://github.com/motalibpathan/manufacturer-website-server",
+    },
+  },
+  {
+    id: 6,
+    projectName: "Spadex Tools",
+    images: ["/project/project1/spadexToolThumbnail.PNG"],
+    features: [
+      "Login authentication with firebase also use google sign in.",
+      "Fully responsive, Home page has navbar, banner, All tools, Business Summary, Review overview, contact and footer section.",
+      "User and Admin different Dashboard",
+      "User can update profile info, place order and add a review also can payment with credit card",
+      "Admin can make admin, cancel and shipped order, Add product and manage products",
+    ],
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "Daisyui",
+      "Firebase",
+      "React Router",
+      "React Query",
+      "React Toastify",
+      "React hook form",
+      "React Firebase Hooks",
+      "Font Awesome icon",
+      "Stripe payment",
+    ],
+    links: {
+      liveSite: "https://manufacture-website-e2667.web.app/",
+      clientSource:
+        "https://github.com/motalibpathan/manufacturer-website-client",
+      serverSource:
+        "https://github.com/motalibpathan/manufacturer-website-server",
+    },
+  },
+];
+
+export default projectData;

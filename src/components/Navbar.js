@@ -14,7 +14,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      console.log(window.pageYOffset);
+      // console.log(window.pageYOffset);
       if (window.pageYOffset > 500) {
         setBackground(true);
       } else {
@@ -35,7 +35,7 @@ const Navbar = () => {
     { href: "#about", name: "About" },
     // { href: "#services", name: "Service" },
     { href: "#portfolio", name: "Portfolio" },
-    // { href: "#blog", name: "Blog" },
+    { href: "#blog", name: "Blog" },
     { href: "#contact", name: "Contact" },
   ];
 

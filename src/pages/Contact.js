@@ -1,7 +1,7 @@
 import { faCheck, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import emailjs from "emailjs-com";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Contact = () => {
   const [emailSend, setEmailSend] = useState(false);
@@ -30,7 +30,7 @@ const Contact = () => {
       });
   };
   return (
-    <div id="contact" className="dark:bg-[#191919] bg-gray-50 py-10">
+    <div id="contact" className="dark:bg-black bg-gray-50 py-10">
       <div className="w-2/3 mx-auto py-20 flex items-center gap-14">
         <div className="w-full md:w-1/2">
           <h1 className="text-6xl font-bold dark:text-white text-gray-700">
