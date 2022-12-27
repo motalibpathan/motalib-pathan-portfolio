@@ -12,7 +12,10 @@ const Home = () => {
         <div className="md:ml-10 ml-5">
           <p className="text-gray-400">WELCOME TO MY WORLD</p>
           <h1 className="text-3xl md:text-7xl font-bold mt-3">
-            Hi, I'm Motalib Pathan
+            Hi, I'm{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600">
+              Motalib Pathan
+            </span>
           </h1>
           <h2 className="text-3xl md:text-6xl font-bold md:my-4 my-0 text-rose-600">
             <TypeAnimation
