@@ -30,9 +30,9 @@ const Contact = () => {
       });
   };
   return (
-    <div id="contact" className="dark:bg-black bg-gray-50 py-10">
-      <div className="w-2/3 mx-auto py-20 flex items-center gap-14">
-        <div className="w-full md:w-1/2">
+    <div id="contact" className="dark:bg-black bg-gray-50 lg:py-10 py-3">
+      <div className="lg:w-2/3 w-full mx-auto lg:py-20 py-5 flex items-center gap-14">
+        <div className="w-full md:w-1/2 px-3">
           <h1 className="text-6xl font-bold dark:text-white text-gray-700">
             Hire Me.
           </h1>
@@ -100,7 +100,7 @@ const Contact = () => {
             </div>
           )}
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="lg:block hidden w-full md:w-1/2">
           <img src="about-8.png" alt="" />
         </div>
       </div>

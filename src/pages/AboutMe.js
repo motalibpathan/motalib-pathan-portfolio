@@ -1,30 +1,193 @@
 import React from "react";
-import ExperienceTab from "../components/ExperienceTab";
 
 const AboutMe = () => {
+  const frontEndSkills = [
+    { id: 1, title: "HTML", progress: 90, bg: "from-cyan-400 to-pink-600" },
+    { id: 2, title: "CSS", progress: 80, bg: "from-orange-400 to-orange-600" },
+    {
+      id: 3,
+      title: "Bootstrap",
+      progress: 70,
+      bg: "from-indigo-300 to-indigo-600",
+    },
+    {
+      id: 4,
+      title: "Tailwind CSS",
+      progress: 90,
+      bg: "from-sky-400 to-sky-700",
+    },
+    {
+      id: 5,
+      title: "JavaScript",
+      progress: 70,
+      bg: "from-yellow-400 to-yellow-600",
+    },
+    {
+      id: 6,
+      title: "React JS",
+      progress: 60,
+      bg: "from-cyan-400 to-sky-600",
+    },
+  ];
+  const backEndSkills = [
+    { id: 1, title: "Node JS", progress: 60, bg: "from-lime-400 to-blue-600" },
+    {
+      id: 2,
+      title: "Express JS",
+      progress: 70,
+      bg: "from-rose-400 to-green-600",
+    },
+    {
+      id: 3,
+      title: "MongoDB",
+      progress: 70,
+      bg: "from-sky-400 to-sky-700",
+    },
+    {
+      id: 4,
+      title: "Mysql",
+      progress: 65,
+      bg: "from-indigo-600 to-blue-600",
+    },
+  ];
   return (
     <div
       id="about"
-      className="w-full lg:h-screen dark:bg-[#191919] bg-gray-50 flex items-center dark:text-gray-400 text-gray-600 p-5"
+      className="w-full lg:min-h-screen dark:bg-[#191919] bg-gray-50 dark:text-gray-400 text-gray-600 p-5"
     >
-      <div className="md:container mx-auto grid lg:grid-cols-12 grid-cols-1">
-        <div className="col-span-5 p-4">
-          <img className="w-full" src="about-8.png" alt="" />
+      <div className="md:container mx-auto mt-10">
+        <div className="flex flex-col items-center">
+          <h3>ABOUT ME</h3>
+          <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 w-[max-content]">
+            Here's my story.
+          </h1>
         </div>
-        <div className="col-span-7 flex items-center p-4">
-          <div>
-            <h1 className="text-3xl md:text-6xl font-bold dark:text-white text-gray-900">
-              About Me
-            </h1>
-            <p className="my-5">
-              Self-motivated team player and creative web developer with
-              proficiency in HTML, CSS, JavaScript, React, Node.js and
-              express.js seeking for a position of a Full stack web developer. I
-              can enhance my knowledge of design principles and grow with the
-              organization.
-            </p>
-            <ExperienceTab />
+        <p className=" text-lg mt-5">
+          I’m Motalib Pathan, a developer, creative coder and self-proclaimed
+          designer who specializes in front-end development. My mission is to
+          translate user-focussed designs into pixel-perfect websites or
+          applications that run blazing fast.
+        </p>
+        <ul className="flex flex-col gap-3 mt-5">
+          <li>
+            🌱 I’m currently learning ReactJs,MongoDB,NodeJs and ExpressJs
+          </li>
+          <li>
+            💻 All of my projects are available at
+            <a className="text-sky-500 ml-2" href="#projects">
+              Project
+            </a>
+          </li>
+          {/* <li>
+              📝 I regularly write articles on shyamtala.netlify.app/blogs
+            </li> */}
+          <li>💬 Ask me about Html , Css , Js , ReactJs, Node js, Mongodb </li>
+          <li>📫 How to reach me motalib.pathan01@gmail.com</li>
+          {/* <li>
+              ⚡ Fun fact By Profesion I am a Web Developer but by Passion I am
+              a Farmer
+            </li> */}
+        </ul>
+      </div>
+      <div className="md:container mx-auto grid lg:grid-cols-12 grid-cols-1">
+        <div className="col-span-6 p-4">
+          <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 mt-5">
+            Education & Work Exprience
+          </h1>
+          <div className="journey_graph border-l-[2px] dark:border-white border-gray-800">
+            <div className="graph dark:before:bg-white before:bg-black dark:after:bg-white after:bg-black ">
+              <p className="title-1 text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 lg:w-[max-content]">
+                BSc in Computer Science and Engineering
+              </p>
+              <p className="title-2">Southeast University, Dhaka, Bangladesh</p>
+              <p className="title-3">Grade : CGPA 3.75 out of 4.00</p>
+              <p className="title-4">Jan 2019 - Dec 2022</p>
+            </div>
+            <div className="graph dark:before:bg-white before:bg-black dark:after:bg-white after:bg-black ">
+              <p className="title-1 text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 lg:w-[max-content]">
+                Think in a Redux way
+              </p>
+              <p className="title-2">Learn With Sumit</p>
+              <p className="title-3">
+                Skills: Redux, React-Redux, React Thunk, RTK Query
+              </p>
+              <p className="desc">February 2023 - March 2023</p>
+            </div>
+            <div className="graph dark:before:bg-white before:bg-black dark:after:bg-white after:bg-black ">
+              <p className="title-1 text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 lg:w-[max-content]">
+                Complete Web Development
+              </p>
+              <p className="title-2">Programming Hero</p>
+              <p className="title-3">
+                Skills: HTML, CSS, JavaScript, React JS, Node JS, Express JS,
+                Redux
+              </p>
+              <p className="desc">January 2022 - June 2022</p>
+            </div>
+            <div className="graph dark:before:bg-white before:bg-black dark:after:bg-white after:bg-black ">
+              <p className="title-1 text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 lg:w-[max-content]">
+                Diploma in Engineering Computer Technology
+              </p>
+              <p className="title-2">Narsingdi Polytechnic Institu</p>
+              <p className="title-3">Grade: CPGA 3.23 out of 4.00</p>
+              <p className="desc">Sep 2014 - April 2018</p>
+            </div>
           </div>
+        </div>
+        <div className="col-span-6 p-4">
+          <h1 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 mt-5 w-[60%]">
+            Development Skills
+          </h1>
+          {/* frontend skills start */}
+          <div>
+            <div className="flex items-center gap-2 mt-3">
+              <img
+                className="w-10"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                alt=""
+              />
+              <h1 className="font-bold">FRONT-END</h1>
+            </div>
+            <div className="space-y-4 mt-5">
+              {frontEndSkills.map((skill) => (
+                <div key={skill.id}>
+                  <h3 className="dark:text-gray-300 mb-2">{skill.title}</h3>
+                  <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div
+                      className={`bg-gradient-to-r ${skill.bg} h-2.5 rounded-full`}
+                      style={{ width: skill.progress + "%" }}
+                    ></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* frontend skills end */}
+          {/* backend skills start */}
+          <div>
+            <div className="flex items-center gap-2 mt-5">
+              <img
+                className="w-10"
+                src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+                alt=""
+              />
+              <h1 className="font-bold">BACK-END</h1>
+            </div>
+            <div className="space-y-4 mt-5">
+              {backEndSkills.map((skill) => (
+                <div key={skill.id}>
+                  <h3 className="dark:text-gray-300 mb-2">{skill.title}</h3>
+                  <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+                    <div
+                      className={`bg-gradient-to-r ${skill.bg} h-2.5 rounded-full`}
+                      style={{ width: skill.progress + "%" }}
+                    ></div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* backend skills start */}
         </div>
       </div>
     </div>
