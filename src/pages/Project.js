@@ -1,7 +1,7 @@
 import ProjectCard from "../components/ProjectCard";
 import SectionHeader from "../components/SectionHeader";
 
-const Services = () => {
+const Projects = () => {
   const title = "My Latest Project";
   const desc1 =
     "These projects development with HTML, CSS, JavaScript, Rest API";
@@ -58,4 +58,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Projects;

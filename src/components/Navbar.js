@@ -44,7 +44,9 @@ const Navbar = () => {
       className={`md:px-16 sm:px-4 w-full fixed top-0 h-[65px] md:h-[90px] px-5 md:z-50 ${
         isNavOpen ? "z-50" : "z-10"
       } ${
-        background ? "bg-[#191919] md:-mt-5 shadow-2xl " : "md:m-0"
+        background
+          ? "dark:bg-[#191919] bg-white md:-mt-5 shadow-2xl "
+          : "md:m-0"
       } duration-500`}
     >
       <div className="flex flex-wrap justify-between items-center mx-auto pt-2">
@@ -86,7 +88,7 @@ const Navbar = () => {
                   ref={React.createRef()}
                   href={item.href}
                   key={index}
-                  className={` block pb-3 list-border cursor-pointer relative md:text-xl text-base md:my-0 my-3 font-bold `}
+                  className={`dark:text-white text-black block pb-3 list-border cursor-pointer relative md:text-xl text-base md:my-0 my-3 font-bold `}
                 >
                   {item.name}
                 </a>
@@ -99,7 +101,10 @@ const Navbar = () => {
                 rel="noreferrer"
               >
                 {" "}
-                <FontAwesomeIcon className="text-2xl" icon={faGithub} />{" "}
+                <FontAwesomeIcon
+                  className="text-2xl dark:text-white text-black"
+                  icon={faGithub}
+                />{" "}
               </a>
             </span>
             <span>
@@ -109,7 +114,10 @@ const Navbar = () => {
                 rel="noreferrer"
               >
                 {" "}
-                <FontAwesomeIcon className="text-2xl" icon={faLinkedin} />{" "}
+                <FontAwesomeIcon
+                  className="text-2xl dark:text-white text-black"
+                  icon={faLinkedin}
+                />{" "}
               </a>
             </span>
             <span
@@ -128,7 +136,7 @@ const Navbar = () => {
 const light = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-6 w-6"
+    className="h-6 w-6 dark:text-gray-100 text-gray-900"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -144,7 +152,7 @@ const light = (
 const dark = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-6 w-6"
+    className="h-6 w-6 dark:text-gray-100 text-gray-900"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"

@@ -2,7 +2,7 @@
 // import Button from "../components/Button";
 import SectionHeader from "../components/SectionHeader";
 
-const Services = () => {
+const Blogs = () => {
   const title = "Latest Blogs";
   const desc1 = "This is my blogs section";
   const desc2 = " Blogs about Web Development, JavaScript Programming";
@@ -67,4 +67,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Blogs;
