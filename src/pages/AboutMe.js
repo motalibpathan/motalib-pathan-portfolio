@@ -109,7 +109,8 @@ const AboutMe = () => {
               </p>
               <p className="title-2">Learn With Sumit</p>
               <p className="title-3">
-                Skills: Redux, React-Redux, React Thunk, RTK Query
+                Skills: Redux, React-Redux, Redux Thunk, Redux Toolkit , RTK
+                Query
               </p>
               <p className="desc">February 2023 - March 2023</p>
             </div>
