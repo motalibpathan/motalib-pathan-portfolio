@@ -1,17 +1,17 @@
 import React from "react";
 import TypeAnimation from "react-type-animation";
-import bg from "../assets/images/rays_bg-4d7eda9d.png";
+// import bg from "../assets/images/rays_bg-4d7eda9d.png";
 import "./Home.css";
 
 const Banner = () => {
   return (
     <header
       id="home"
-      className="h-[600px] md:h-screen dark:bg-[#1e293b]  text-white flex items-center "
+      className="h-[600px] md:h-screen dark:bg-[#111824]  text-white flex items-center "
     >
       <img
-        className="absolute left-[30%] top[-30%] z-5 w-[55%] h-[auto]  "
-        src={bg}
+        className="absolute z-5 w-[95%] lg:h-[18%] h-[8%] "
+        src={`https://tailwindcss.com/_next/static/media/8-dark@tinypng.7abc66a1.png`}
         alt=""
       />
       <div className="md:container mx-auto">
@@ -49,7 +49,7 @@ const Banner = () => {
               href="https://drive.google.com/file/d/1swgpUH9eQijyP7hRAOA4TkxHHwx12jCN/view?usp=sharing"
               target={"_blank"}
               rel="noreferrer"
-              className="text-white border-2 border-rose-600 py-3 px-8 bg-rose-600 cursor-pointer rounded-md mt-10  duration-500 hover:bg-transparent z-10"
+              className="text-white py-3 px-8 bg-gradient-to-r from-cyan-400 to-pink-600 cursor-pointer rounded-md mt-10  duration-500 hover:bg-transparent z-10"
             >
               Download Resume
             </a>

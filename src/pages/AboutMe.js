@@ -53,9 +53,9 @@ const AboutMe = () => {
   return (
     <div
       id="about"
-      className="w-full lg:min-h-screen dark:bg-[#191919] bg-gray-50 dark:text-gray-400 text-gray-600 p-5"
+      className={`w-full lg:min-h-screen dark:bg-[#191919] bg-gray-50 dark:text-gray-400 text-gray-600 p-5 dark:bg-[url('https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg')] bg-[url('https://tailwindcss.com/_next/static/media/hero@75.b2469a49.jpg')] bg-no-repeat lg:bg-center bg-cover`}
     >
-      <div className="md:container mx-auto mt-10">
+      <div className="md:container mx-auto mt-16 ">
         <div className="flex flex-col items-center">
           <h3>ABOUT ME</h3>
           <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 w-[max-content]">
@@ -74,7 +74,7 @@ const AboutMe = () => {
           </li>
           <li>
             💻 All of my projects are available at
-            <a className="text-sky-500 ml-2" href="#projects">
+            <a className="text-cyan-500 ml-2" href="/">
               Project
             </a>
           </li>
@@ -82,7 +82,10 @@ const AboutMe = () => {
               📝 I regularly write articles on shyamtala.netlify.app/blogs
             </li> */}
           <li>💬 Ask me about Html , Css , Js , ReactJs, Node js, Mongodb </li>
-          <li>📫 How to reach me motalib.pathan01@gmail.com</li>
+          <li>
+            📫 How to reach me{" "}
+            <span className=" text-cyan-400">motalib.pathan01@gmail.com</span>
+          </li>
           {/* <li>
               ⚡ Fun fact By Profesion I am a Web Developer but by Passion I am
               a Farmer
@@ -129,9 +132,19 @@ const AboutMe = () => {
               <p className="title-1 text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 lg:w-[max-content]">
                 Diploma in Engineering Computer Technology
               </p>
-              <p className="title-2">Narsingdi Polytechnic Institu</p>
+              <p className="title-2">Narsingdi Polytechnic Institute</p>
               <p className="title-3">Grade: CPGA 3.23 out of 4.00</p>
               <p className="desc">Sep 2014 - April 2018</p>
+            </div>
+            <div className="graph dark:before:bg-white before:bg-black dark:after:bg-white after:bg-black ">
+              <p className="title-1 text-lg font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 lg:w-[max-content]">
+                Graphics Design
+              </p>
+              <p className="title-2">ICT Division</p>
+              <p className="title-3">
+                Learning and Earning Development Project
+              </p>
+              <p className="desc">February 2017 - June 2017</p>
             </div>
           </div>
         </div>

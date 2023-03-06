@@ -30,22 +30,30 @@ const Contact = () => {
       });
   };
   return (
-    <div id="contact" className="dark:bg-black bg-gray-50 lg:py-10 py-3">
+    <div
+      id="contact"
+      className="dark:bg-black bg-gray-50 lg:py-10 py-3 bg-[url('https://tailwindcss.com/_next/static/media/4-dark@tinypng.cacfac06.png')] bg-no-repeat bg-center"
+    >
       <div className="lg:w-2/3 w-full mx-auto lg:py-20 py-5 flex items-center gap-14">
         <div className="w-full md:w-1/2 px-3">
-          <h1 className="text-6xl font-bold dark:text-white text-gray-700">
+          <h1 className="lg:text-5xl text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-600 w-[max-content]">
             Hire Me.
           </h1>
-          <p className="text-gray-500 my-5">
-            I am available for remote job. Connect with me via phone:{" "}
-            <span className="dark:text-white text-rose-500">
-              +88 01684 352102
-            </span>{" "}
-            or email:{" "}
-            <span className="dark:text-white text-rose-500">
-              motalib.pathan01@gmail.com
-            </span>
-          </p>
+          <div className="text-gray-500 my-5">
+            I am available for remote job. Connect with me via
+            <p>
+              phone:{" "}
+              <span className="dark:text-white text-rose-500">
+                +88 01684 352102
+              </span>
+            </p>
+            <p>
+              or email:{" "}
+              <span className="dark:text-white text-rose-500">
+                motalib.pathan01@gmail.com
+              </span>
+            </p>
+          </div>
           {!emailSend && (
             <form onSubmit={handleSendEmail} className="flex flex-col">
               <input
@@ -79,7 +87,7 @@ const Contact = () => {
               ></textarea>
               <button
                 disabled={isLoading}
-                className="text-white border-2 border-rose-600 bg-rose-600 py-3 px-9 cursor-pointer rounded-md mt-3 hover:bg-transparent hover:-translate-y-2 hover:text-rose-600 duration-500 "
+                className="text-white bg-gradient-to-r from-cyan-400 to-pink-600 py-3 px-9 cursor-pointer rounded-md mt-3 hover:bg-transparent hover:-translate-y-2 hover:text-rose-600 duration-500 "
               >
                 <FontAwesomeIcon className="mr-2" icon={faPaperPlane} /> Send
               </button>

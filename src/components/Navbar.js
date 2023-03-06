@@ -45,7 +45,7 @@ const Navbar = () => {
         isNavOpen ? "z-50" : "z-10"
       } ${
         background
-          ? "dark:bg-[#191919] bg-white md:-mt-5 shadow-2xl "
+          ? " lg:bg-transparent dark:bg-transparent backdrop-blur-lg md:-mt-5 shadow-2xl "
           : "md:m-0"
       } duration-500`}
     >
@@ -62,7 +62,7 @@ const Navbar = () => {
             onClick={() => setIsNavOpen(!isNavOpen)}
             data-collapse-toggle="mobile-menu"
             type="button"
-            className="text-white text-2xl md:hidden -mt-5 z-50"
+            className="dark:text-white text-black text-2xl md:hidden -mt-5 z-50"
             aria-controls="mobile-menu-2"
             aria-expanded="false"
           >
@@ -78,7 +78,7 @@ const Navbar = () => {
             isNavOpen
               ? "translate-x-20 md:translate-x-0 "
               : "md:translate-x-0 translate-x-[500px] md:static absolute"
-          } w-full md:block md:w-auto md:bg-transparent opacity-90 bg-black -ml-5 nav-items transition-transform md:h-full h-screen md:m-0 -m-24 pt-10 md:pt-0 `}
+          } w-full md:block md:w-auto md:bg-transparent  opacity-90 dark:bg-black dark:md:bg-transparent bg-gray-100 -ml-5 nav-items transition-transform md:h-full h-screen md:m-0 -m-24 pt-10 md:pt-0 `}
           id="mobile-menu"
         >
           <div className="md:flex gap-6 text-white flex-wrap md:p-0 p-5 md:mt-10 mt-0 mb-10 ">
@@ -88,7 +88,7 @@ const Navbar = () => {
                   ref={React.createRef()}
                   href={item.href}
                   key={index}
-                  className={`dark:text-white text-black block pb-3 list-border cursor-pointer relative md:text-xl text-base md:my-0 my-3 font-bold `}
+                  className={`dark:text-white text-black block pb-3 list-border cursor-pointer relative md:text-xl text-base md:my-0 my-3 font-[600] `}
                 >
                   {item.name}
                 </a>
